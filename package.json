@@ -1,0 +1,15 @@
+{
+  "name": "netlify-functions-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DSchau/netlify-functions-example.git",
+  "author": "Dustin Schau <dustinschau@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "netlify": "^3.0.0"
+  }
+}
